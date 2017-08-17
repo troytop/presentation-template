@@ -1,0 +1,5 @@
+applications:
+- name: slides 
+  buildpack: staticfile_buildpack 
+  memory: 64M
+  disk: 256M
