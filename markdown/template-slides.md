@@ -1,19 +1,19 @@
 <!-- .slide: data-state="cover" id="cover-page" data-timing="20" -->
 <div class="title">
-    <h1>Presentation Title</h1>
-    <h2>Subhead or Second Line</h2>
+    <h1>SUSE Cloud Application Platform</h1>
+    <h2>Roadmap</h2>
 </div>
 
 <div class="row presenters">
     <div class="presenter presenter-1">
-        <h3 class="name">First Presenter's Name</h3>
-        <h3 class="job-title">Job Title</h3>
-        <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
+        <h3 class="name">Troy Topnik</h3>
+        <h3 class="job-title">Sr. Product Manager, SUSE Cloud Appliation Platform</h3>
+        <h3 class="email"><a href="mailto:troy.topnik@suse.com">troy.topnik@suse.com</a></h3>
     </div>
     <div class="presenter presenter-2">
-        <h3 class="name">Second Presenter's Name</h3>
-        <h3 class="job-title">Job Title</h3>
-        <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
+        <h3 class="name">Ronald Nunan</h3>
+        <h3 class="job-title">Sr. Product Manager, SUSE Cloud Appliation Platform</h3>
+        <h3 class="email"><a href="mailto:rnunan@suse.com">rnunan@suse.com</a></h3>
     </div>
 </div>
 
