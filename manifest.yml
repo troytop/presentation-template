@@ -2,4 +2,4 @@ applications:
 - name: slides 
   buildpack: staticfile_buildpack 
   memory: 64M
-  disk: 64M
+  disk_quota: 256M
