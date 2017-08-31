@@ -87,6 +87,84 @@ Operators build, run, manage, and scale apps easily
 ## Containerized Software for DevOps 
 
 
+<!-- .slide: data-state="normal" id="helm" data-timing="20s" data-menu-title="Helm" -->
+# Kubernetes Helm
+## Simplifying App and Service Deployment
+
+System services are deployed via Helm:
+* installs, upgrades and manages applications on Kubernetes
+* Helm charts: YAML configuration and container images
+* A community standard
+* Included with Kubernetes in CaaS Platform
+
+SUSE will:
+* Include service brokers for popular databases available in upstream Kubernetes charts
+* Continuously grow the service ecosystem with third parties using Helm
+
+
+<!-- .slide: data-state="normal" id="stratos-ui" data-timing="20s" data-menu-title="CF Stratos UI" -->
+# Stratos UI CF Web Interface
+<div class="slide-section" style="float: right; clear: both; border: 1px black;">
+    <img data-src="images/stratos-ui-app.png" style="width: 100%;" />
+</div>
+CF UI deployed via Helm or as a Cloud Foundry app
+
+Open source on Github:  SUSE/stratos-ui
+
+User and Admin views
+
+Supports multiple CF API endpoints
+
+
+
+<!-- .slide: data-state="normal" id="uaa" data-timing="20s" data-menu-title="CF UAA" -->
+# UAA (Cloud Foundry Auth Server) 
+
+Certified Cloud Foundry component
+
+Allows stand-alone deployments separately from SUSE CF
+
+SUSE CF configurable to use existing/separate OAuth2 server
+
+UAA service can be used for OpenID Connect auth for other components (e.g. Kubernetes role-based access control)
+
+
+<!-- .slide: data-state="normal" id="portus" data-timing="20s" data-menu-title="Portus" -->
+# Portus + Container Registry
+
+<div class="slide-section" style="float: right; clear: both; border: 1px black;">
+    <img data-src="images/portus.png" style="width: 100%;" />
+</div>
+
+Providing a local registry server for developers
+
+Portus will provide the UI and user management
+
+
+<!-- .slide: data-state="normal" id="future-services" data-timing="20s" data-menu-title="Post 1.0 Services" -->
+# Post-1.0 Services
+
+SUSE CAP gaining services that compliment a DevOps workflow
+
+CI/CD
+* Concourse, Jenkins, other 
+* Additional plugins for Cloud Foundry, Kubernetes, and Helm
+
+Git
+* GitLab, Gitea, or Github Enterprise
+
+Misc
+* Web-based IDE
+* Object storage
+
+
+<!-- .slide: data-menu-title="SUSE logo" id="SUSE-logo" data-state="green-bg" -->
+<img data-src="images/SUSE/SUSE-logo-white.png"
+     alt="SUSE&reg; logo"
+     style="width: 25%; height: 25%; margin-top: 20%;"
+     class="full-slide" />
+
+
 <!-- .slide: data-state="normal" id="nested-lists" data-timing="20s" data-menu-title="Standard text slide" -->
 ## Slide title
 
