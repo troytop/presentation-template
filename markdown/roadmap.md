@@ -1,3 +1,10 @@
+<!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
+
+<div class="qrcode" id="qrcode-talk"/>
+<h2><a href="https://slides.10.84.93.88.xip.io" target="_blank"
+       id="talk">https://slides.10.84.93.88.xip.io</a></h2>
+
+
 <!-- .slide: data-state="cover" id="cap-roadmap-start" data-menu-title="SUSE CAP Roadmap" data-timing="20" -->
 <div class="title">
     <h1>SUSE Cloud Application Platform</h1>
@@ -22,6 +29,7 @@
 
 ## Platform Strategy
 
+<br>
 Produce and support a modern, open source application delivery platform to:
 * Support software development and operations teams streamlining the lifecycle
   management of traditional and new cloud native applications
@@ -66,10 +74,12 @@ Use industry-leading technologies
 
 ## Build, Deploy, and Manage Cloud Native Applications
 
+<br>
 Software developers focus on code, not infrastructure
 * self-service – application code pushed via API
 * increases the pace of software development 
 
+<br>
 Operators build, run, manage, and scale apps easily 
 * manages running code effectively in public and private clouds
 * provides fault tolerance, health monitoring, routing, and load balancing
@@ -107,35 +117,43 @@ SUSE will:
 <div class="slide-section" style="float: right; clear: both; border: 1px black;">
     <img data-src="images/stratos-ui-app.png" style="width: 100%;" />
 </div>
+<br>
 CF UI deployed via Helm or as a Cloud Foundry app
 
+<br>
 Open source on Github:  SUSE/stratos-ui
 
+<br>
 User and Admin views
 
+<br>
 Supports multiple CF API endpoints
-
 
 
 <!-- .slide: data-state="normal" id="uaa" data-timing="20s" data-menu-title="CF UAA" -->
 # UAA (Cloud Foundry Auth Server) 
 
+<br>
 Certified Cloud Foundry component
 
+<br>
 Allows stand-alone deployments separately from SUSE CF
 
+<br>
 SUSE CF configurable to use existing/separate OAuth2 server
 
+<br>
 UAA service can be used for OpenID Connect auth for other components (e.g. Kubernetes role-based access control)
 
 
 <!-- .slide: data-state="normal" id="portus" data-timing="20s" data-menu-title="Portus" -->
 # Portus + Container Registry
-
-<div class="slide-section" style="float: right; clear: both; border: 1px black;">
-    <img data-src="images/portus.png" style="width: 100%;" />
+  
+<div class="slide-section" style="border: 1px solid black; float: right">
+    <img data-src="images/portus.png" style="width: 800px;" />
 </div>
-
+<br>
+<br>
 Providing a local registry server for developers
 
 Portus will provide the UI and user management
@@ -146,6 +164,7 @@ Portus will provide the UI and user management
 
 SUSE CAP gaining services that compliment a DevOps workflow
 
+<br>
 CI/CD
 * Concourse, Jenkins, other 
 * Additional plugins for Cloud Foundry, Kubernetes, and Helm
@@ -163,6 +182,7 @@ Misc
      alt="SUSE&reg; logo"
      style="width: 25%; height: 25%; margin-top: 20%;"
      class="full-slide" />
+
 
 
 <!-- .slide: data-state="normal" id="nested-lists" data-timing="20s" data-menu-title="Standard text slide" -->
