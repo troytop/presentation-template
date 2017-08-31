@@ -1,8 +1,8 @@
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
 
 <div class="qrcode" id="qrcode-talk"/>
-<h2><a href="https://slides.10.84.93.88.xip.io" target="_blank"
-       id="talk">https://slides.10.84.93.88.xip.io</a></h2>
+<h2><a href="http://slides.10.84.93.88.nip.io" target="_blank"
+       id="talk">http://slides.10.84.93.88.nip.io</a></h2>
 
 
 <!-- .slide: data-state="cover" id="cap-roadmap-start" data-menu-title="SUSE CAP Roadmap" data-timing="20" -->
@@ -114,7 +114,7 @@ SUSE will:
 
 <!-- .slide: data-state="normal" id="stratos-ui" data-timing="20s" data-menu-title="CF Stratos UI" -->
 # Stratos UI CF Web Interface
-<div class="slide-section" style="float: right; clear: both; border: 1px black;">
+<div class="slide-section" style="float: right; clear: both;">
     <img data-src="images/stratos-ui-app.png" style="width: 100%;" />
 </div>
 <br>
@@ -149,7 +149,7 @@ UAA service can be used for OpenID Connect auth for other components (e.g. Kuber
 <!-- .slide: data-state="normal" id="portus" data-timing="20s" data-menu-title="Portus" -->
 # Portus + Container Registry
   
-<div class="slide-section" style="border: 1px solid black; float: right">
+<div class="slide-section" style="float: right">
     <img data-src="images/portus.png" style="width: 800px;" />
 </div>
 <br>
@@ -182,77 +182,3 @@ Misc
      alt="SUSE&reg; logo"
      style="width: 25%; height: 25%; margin-top: 20%;"
      class="full-slide" />
-
-
-
-<!-- .slide: data-state="normal" id="nested-lists" data-timing="20s" data-menu-title="Standard text slide" -->
-## Slide title
-
-*   First-level bullet
-    *   Second-level bullet
-        *   Third-level bullets are a bad idea
-            *   Fourth-level bullets are a terrible idea
-
-Before loading up your presentation with bulleted lists, make sure to
-[read up on whether that's a good idea](https://www.google.com/search?q=slides+bullets).
-
-
-<!-- .slide: data-state="section-break-2" id="section-break-2" data-timing="10s" -->
-# Section break (style 2)
-
-
-<!-- .slide: data-state="section-break-3" id="section-break-3" data-timing="10s" -->
-# Section break (style 3)
-
-
-<!-- .slide: data-state="section-break-4" id="section-break-4" data-timing="10s" -->
-# Section break (style 4)
-
-
-<!-- .slide: data-state="normal" id="syntax-highlighting" -->
-## Code syntax highlighting
-
-Works out of the box using [`highlight.js`](https://highlightjs.org/)
-and a custom color theme with official SUSE colors:
-
-```js
-Reveal.addEventListener('somestate', function() {
-    // TODO: Sprinkle magic
-}, false );
-```
-
-in different languages:
-
-```ruby
-# Ping with 5 seconds timeout and a single attempt
-def ping! node
-  command = ["ping", "-q -c 5 -w 5 #{node.ip}"]
-  result = exec!(*command)
-  if result.exit_code.nonzero?
-    raise PingError.new(command, result.output)
-  end
-  result, :foo
-end
-```
-
-
-<!-- .slide: data-state="section-break" id="full-screen-images" data-timing="10s" -->
-# Full screen images
-
-
-<!-- .slide: data-state="blank-slide" class="full-screen" id="full-screen-image-1" data-menu-title="Full screen image" data-timing="10s" -->
-<a title="By Fraser Hart (http://www.hermitagebay.com) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABeach_pano.jpg">
-    <img alt="Beach pano" src="images/beach-pano-16x9.jpg"/>
-</a>
-
-
-<!-- .slide: data-state="blank-slide" class="full-screen" id="full-screen-image-2" data-menu-title="Tall full screen image" data-timing="10s" -->
-<a title="By Fraser Hart (http://www.hermitagebay.com) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABeach_pano.jpg">
-    <img alt="Beach pano" src="images/beach-pano-tall.jpg"/>
-</a>
-
-
-<!-- .slide: data-state="blank-slide" class="full-screen" id="full-screen-image-3" data-menu-title="Wide full screen image" data-timing="10s" -->
-<a title="By Fraser Hart (http://www.hermitagebay.com) [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ABeach_pano.jpg">
-    <img alt="Beach pano" src="images/beach-pano-wide.jpg"/>
-</a>
