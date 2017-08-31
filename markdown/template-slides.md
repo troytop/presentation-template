@@ -19,6 +19,14 @@
 
 
 <!-- .slide: data-state="normal" id="nested-lists" data-timing="20s" data-menu-title="Standard text slide" -->
+## Software Landscape 
+
+<div class="slide-section">
+    <img data-src="images/software-landscape.svg" style="width: 100%;" />
+</div>
+
+
+<!-- .slide: data-state="normal" id="nested-lists" data-timing="20s" data-menu-title="Standard text slide" -->
 ## Slide title
 
 *   First-level bullet
