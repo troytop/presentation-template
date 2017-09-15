@@ -41,8 +41,10 @@ Produce and support a modern, open source application delivery platform to:
 
 <!-- .slide: data-state="section-break" id="cap-big-picture" data-menu-title="SUSE CAP Big Picture" data-timing="10s" -->
 
-# Kubernetes + Cloud Foundry 
-#   ==>  SUSE Cloud Application Platform
+# SUSE Linux Enterprise 
+# + Kubernetes 
+# + Cloud Foundry 
+# = SUSE Cloud Application Platform
 
 
 <!-- .slide: data-state="normal" id="cap-high-level" data-timing="20s" data-menu-title="SUSE CAP High-Level Goals" -->
