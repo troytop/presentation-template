@@ -18,9 +18,9 @@
         <h3 class="email"><a href="mailto:troy.topnik@suse.com">troy.topnik@suse.com</a></h3>
     </div>
     <div class="presenter presenter-2">
-        <h3 class="name">Ronald Nunan</h3>
-        <h3 class="job-title">Sr. Product Manager, SUSE Cloud Appliation Platform</h3>
-        <h3 class="email"><a href="mailto:rnunan@suse.com">rnunan@suse.com</a></h3>
+        <h3 class="name">Louis Paul</h3>
+        <h3 class="job-title">Sales Engineer, SUSE Cloud Appliation Platform</h3>
+        <h3 class="email"><a href="mailto:louis.paul@suse.com">louis.paul@suse.com</a></h3>
     </div>
 </div>
 
@@ -41,7 +41,7 @@ Produce and support a modern, open source application delivery platform to:
 
 <!-- .slide: data-state="section-break" id="cap-big-picture" data-menu-title="SUSE CAP Big Picture" data-timing="10s" -->
 
-# Kubernetes + Cloud Foundry 
+# Kubernetes + Cloud Foundry
 #   ==>  SUSE Cloud Application Platform
 
 
@@ -63,7 +63,7 @@ Use industry-leading technologies
 
 
 <!-- .slide: data-state="normal" id="cap-software-landscape" data-timing="20s" data-menu-title="SUSE CAP Software Landscape" -->
-## Software Landscape 
+## Software Landscape
 
 <div class="slide-section">
     <img data-src="images/software-landscape.svg" style="width: 100%;" />
@@ -77,16 +77,16 @@ Use industry-leading technologies
 <br>
 Software developers focus on code, not infrastructure
 * self-service – application code pushed via API
-* increases the pace of software development 
+* increases the pace of software development
 
 <br>
-Operators build, run, manage, and scale apps easily 
+Operators build, run, manage, and scale apps easily
 * manages running code effectively in public and private clouds
 * provides fault tolerance, health monitoring, routing, and load balancing
 
 
 <!-- .slide: data-state="normal" id="cap-timeline" data-timing="20s" data-menu-title="SUSE CAP Timeline" -->
-## Timeline 
+## Timeline
 <div class="slide-section">
     <img data-src="images/CAP-timeline.svg" style="width: 100%;" />
 </div>
@@ -94,7 +94,7 @@ Operators build, run, manage, and scale apps easily
 
 <!-- .slide: data-state="section-break-4" id="cap-ecosystem-services" data-menu-title="SUSE CAP Ecosystem Services" data-timing="10s" -->
 # Ecosystem Services
-## Containerized Software for DevOps 
+## Containerized Software for DevOps
 
 
 <!-- .slide: data-state="normal" id="helm" data-timing="20s" data-menu-title="Helm" -->
@@ -131,7 +131,7 @@ Supports multiple CF API endpoints
 
 
 <!-- .slide: data-state="normal" id="uaa" data-timing="20s" data-menu-title="CF UAA" -->
-# UAA (Cloud Foundry Auth Server) 
+# UAA (Cloud Foundry Auth Server)
 
 <br>
 Certified Cloud Foundry component
@@ -148,7 +148,7 @@ UAA service can be used for OpenID Connect auth for other components (e.g. Kuber
 
 <!-- .slide: data-state="normal" id="portus" data-timing="20s" data-menu-title="Portus" -->
 # Portus + Container Registry
-  
+
 <div class="slide-section" style="float: right">
     <img data-src="images/portus.png" style="width: 800px;" />
 </div>
@@ -162,11 +162,11 @@ Portus will provide the UI and user management
 <!-- .slide: data-state="normal" id="future-services" data-timing="20s" data-menu-title="Post 1.0 Services" -->
 # Post-1.0 Services
 
-SUSE CAP gaining services that compliment a DevOps workflow
+### SUSE CAP will gain services that compliment a DevOps workflow
 
 <br>
 CI/CD
-* Concourse, Jenkins, other 
+* Concourse, Jenkins, other
 * Additional plugins for Cloud Foundry, Kubernetes, and Helm
 
 Git
