@@ -8,7 +8,7 @@
 <!-- .slide: data-state="cover" id="cap-roadmap-start" data-menu-title="SUSE CAP Roadmap" data-timing="20" -->
 <div class="title">
     <h1>SUSE Cloud Application Platform</h1>
-    <h2>Roadmap</h2>
+    <h2>TechTalk</h2>
 </div>
 
 <div class="row presenters">
@@ -23,6 +23,17 @@
         <h3 class="email"><a href="mailto:louis.paul@suse.com">louis.paul@suse.com</a></h3>
     </div>
 </div>
+
+
+<!-- .slide: data-state="normal" id="cap-strategy" data-timing="20s" data-menu-title="SUSE CAP Strategy" -->
+
+## Overview
+
+* Platform strategy: Why we're building a PaaS software distribution 
+* What is SUSE Cloud Application Platform
+* Markitecture
+* CF Concepts and What's Inside
+* Demo
 
 
 <!-- .slide: data-state="normal" id="cap-strategy" data-timing="20s" data-menu-title="SUSE CAP Strategy" -->
@@ -89,6 +100,12 @@ Operators build, run, manage, and scale apps easily
 ## Timeline
 <div class="slide-section">
     <img data-src="images/CAP-timeline.svg" style="width: 100%;" />
+</div>
+
+
+<!-- .slide: data-state="normal" id="cap-app-deployment" data-timing="20s" data-menu-title="SUSE CAP App Deployment" -->
+<div class="slide-section">
+    <img data-src="images/code-buildpack-stack-app.svg" style="width: 100%;" />
 </div>
 
 
