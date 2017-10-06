@@ -1,14 +1,7 @@
-<!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
-
-<div class="qrcode" id="qrcode-talk"/>
-<h2><a href="http://slides.capbristol.com" target="_blank"
-       id="talk">http://slides.capbristol.com</a></h2>
-
-
-<!-- .slide: data-state="cover" id="cap-roadmap-start" data-menu-title="SUSE CAP Roadmap" data-timing="20" -->
+<!-- .slide: data-state="cover" id="cap-roadmap-start" data-menu-title="Broadening the CF Base" data-timing="20" -->
 <div class="title">
-    <h1>SUSE Cloud Application Platform</h1>
-    <h2>Roadmap</h2>
+    <h1>Broadening the Base</h1>
+    <h2>Increasing Options for Deploying Cloud Foundry</h2>
 </div>
 
 <div class="row presenters">
@@ -16,11 +9,6 @@
         <h3 class="name">Troy Topnik</h3>
         <h3 class="job-title">Sr. Product Manager, SUSE Cloud Appliation Platform</h3>
         <h3 class="email"><a href="mailto:troy.topnik@suse.com">troy.topnik@suse.com</a></h3>
-    </div>
-    <div class="presenter presenter-2">
-        <h3 class="name">Ronald Nunan</h3>
-        <h3 class="job-title">Sr. Product Manager, SUSE Cloud Appliation Platform</h3>
-        <h3 class="email"><a href="mailto:rnunan@suse.com">rnunan@suse.com</a></h3>
     </div>
 </div>
 
