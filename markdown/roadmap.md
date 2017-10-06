@@ -1,8 +1,8 @@
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
 
 <div class="qrcode" id="qrcode-talk"/>
-<h2><a href="http://slides.10.84.93.88.nip.io" target="_blank"
-       id="talk">http://slides.10.84.93.88.nip.io</a></h2>
+<h2><a href="http://slides.capbristol.com" target="_blank"
+       id="talk">http://slides.capbristol.com</a></h2>
 
 
 <!-- .slide: data-state="cover" id="cap-roadmap-start" data-menu-title="SUSE CAP Roadmap" data-timing="20" -->
@@ -23,6 +23,23 @@
         <h3 class="email"><a href="mailto:rnunan@suse.com">rnunan@suse.com</a></h3>
     </div>
 </div>
+
+
+<!-- .slide: data-state="normal" id="cap-intro" data-timing="20s" data-menu-title="SUSE Cloud Application Platform" -->
+# SUSE Cloud Application Platform
+
+Speed delivery and streamline lifecycle management of traditional and
+
+cloud-native applications with a modern application delivery platform.
+* Accelerate innovation with a single platform for rapid application delivery at scale.
+* Reduce complexity and improve IT efficiency with a solutions that is easy to install,
+scale and maintain
+* Maximize return on your investment with enterprise-ready, industry leading
+ technologies
+
+### 100% - Community built and enterprise-ready
+### 1 - Platform that brings together Cloud Foundry and Kubernetes
+### Reduce - Installation and management complexity with containerized distribution
 
 
 <!-- .slide: data-state="normal" id="cap-strategy" data-timing="20s" data-menu-title="SUSE CAP Strategy" -->
