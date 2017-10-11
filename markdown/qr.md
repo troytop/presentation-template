@@ -1,8 +1,8 @@
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
 
 <div class="qrcode" id="qrcode-talk"/>
-<h2><a href="http://slides.capbristol.com" target="_blank"
-       id="talk">http://slides.capbristol.com</a></h2>
+<h2><a href="http://slides.cap.asgardtech.io" target="_blank"
+       id="talk">http://slides.cap.asgardtech.io</a></h2>
 
 
 <!-- .slide: data-menu-title="SUSE logo" id="SUSE-logo" data-state="green-bg" -->
