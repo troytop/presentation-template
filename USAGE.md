@@ -1,5 +1,43 @@
 # How to use this presentation
 
+## Getting started
+
+Firstly, `git-clone` this repository to a directory name which
+reflects your new presentation, e.g.
+
+    # clone via ssh
+    git clone git@github.com:aspiers/presentation-template.git my-new-presentation
+
+or
+
+    # clone via https
+    git clone https://github.com/aspiers/presentation-template.git my-new-presentation
+
+It is recommended to treat each presentation as a separate repository
+rather than separate branches within a single repository, even though
+they all come from the same starting point.  This is because when
+publishing via GitHub Pages (see below), you will need one GitHub
+repository per presentation.
+
+### `presentation-template` and GitHub forking
+
+It is *not* recommended to first click GitHub's `fork` button to fork
+this repository to form the basis for your new presentation, because
+[that can only be done
+once](https://github.com/isaacs/github/issues/1094), so it would not
+work for any subsequent presentations you wanted to create.
+Consequently it is recommended to reserve your GitHub fork of this
+repository purely for sending pull requests in case you find anything
+in this repository which can be improved.
+
+Also, there are no downsides to not having each presentation as a
+GitHub fork of this template.  If you eventually have multiple
+presentations each in its own repository, and you want to share
+certain changes between them (e.g. tweaks to a CSS file, or
+introduction of a new reveal.js plugin which you particularly like),
+you can still set up git remotes which point to the other
+presentations, allowing you to push and pull between them.
+
 ## Layout of files and directories
 
 The main content of this presentation is defined by Markdown files

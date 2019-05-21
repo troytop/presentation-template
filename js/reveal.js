@@ -1,14 +1,16 @@
-// Full list of configuration options available here:
-// https://github.com/hakimel/reveal.js#configuration
+// More info about config & dependencies:
+// - https://github.com/hakimel/reveal.js#configuration
+// - https://github.com/hakimel/reveal.js#dependencies
 Reveal.initialize({
-    // If you change these, make sure $aspect-ratio in the .scss file
-    // is updated accordingly:
+    // If you change these, make sure $slide-width and $slide-height in
+    // css/_variables.scss are also updated accordingly:
     width: 1600,
     height: 900,
 
     margin: 0.01,
 
-    controls: false,
+    controls: true, // press C to toggle
+    controlsTutorial: true,
     slideNumber: true,
     progress: true,
     history: true,
@@ -39,13 +41,25 @@ Reveal.initialize({
     ]
 });
 
-// If we wanted mouse clicks to advance to next / previous slides, this is
-// how we'd do it:
+Reveal.configure({
+    keyboard: {
+        13: 'next', // go to the next slide when the ENTER key is pressed
+        27: function() {}, // do something custom when ESC is pressed
+        32: null, // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+        // Make 'C' toggle controls
+        67: function() {
+            Reveal.configure({ controls: ! Reveal.getConfig()['controls'] });
+        },
+  }
+});
 
-// window.addEventListener("mousedown", handleClick, false);
-// window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
-function handleClick(e) {
+// Left/right mouse click to advance to next / previous slides.
+if (false) {
+  window.addEventListener("mousedown", handleClick, false);
+  window.addEventListener("contextmenu", function(e) { e.preventDefault(); }, false);
+  function handleClick(e) {
     e.preventDefault();
     if(e.button === 0) Reveal.next();
-    // if(e.button === 2) Reveal.prev();
+    if(e.button === 2) Reveal.prev();
+  }
 }

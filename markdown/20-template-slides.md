@@ -74,6 +74,11 @@ end
 ```
 
 
+<!-- .slide: data-state="blank" class="full-screen" id="live-demo" data-menu-title="Live demo" -->
+<!-- This will embed a terminal in the slide, so that you can do live demos from the CLI.  You need to have shellinabox installed and then run the bin/shellinabox wrapper script -->
+<iframe src="http://localhost:4242" />
+
+
 <!-- .slide: data-state="section-break" id="full-screen-images" data-timing="10s" -->
 # Full screen images
 

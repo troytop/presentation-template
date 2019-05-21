@@ -5,10 +5,11 @@
 *   You can now [watch the video of this presentation online](https://link/to/presentation/video)
 -->
 
-*   Press `?` for help on navigating these slides
+*   Press `n` / `p` to move to next / previous slide
 *   Press `m` for a slide menu
 *   Press `s` for speaker notes <br />
-*   Here is the [original session abstract and details](https://link/to/session/details)
+*   Press `?` for more help on navigating these slides
+*   Here are the [details of the original event](https://link/to/session/details)
 
 
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->

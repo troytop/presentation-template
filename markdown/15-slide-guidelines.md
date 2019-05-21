@@ -1,44 +1,3 @@
-<!-- .slide: data-state="cover" id="guidelines-cover-page" data-timing="20" data-menu-title="Guidelines" -->
-<div class="title">
-    <h1>SUSE<sub>&reg;</sub> Presentation</h1>
-    <h2>Guidelines and Template</h2>
-</div>
-
-<div class="row presenters">
-    <div class="presenter presenter-1">
-        <h3 class="name">First Presenter's Name</h3>
-        <h3 class="job-title">Job Title</h3>
-        <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
-    </div>
-    <div class="presenter presenter-2">
-        <h3 class="name">Second Presenter's Name</h3>
-        <h3 class="job-title">Job Title</h3>
-        <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
-    </div>
-</div>
-
-
-<!-- .slide: data-state="normal" id="agenda" data-menu-title="Index" -->
-## SUSE Presentations
-
-<h3>
-Welcome to the [`reveal.js`](https://github.com/hakimel/reveal.js/)
-version of the guidelines and template for SUSE presentations.
-</h3>
-
-It contains the following slides (you can also press `m` at any
-time to reveal a navigation menu):
-
-*   Guidelines
-    *   Template Instructions
-    *   Color Palette
-    *   Graphics and Typeface
-    *   Editorial Guidelines
-    *   Slide Trademarking Guidelines
-
-*   Presentation Template
-
-
 <!-- .slide: data-state="normal" id="design-goals" data-timing="30" -->
 ## Template Instructions
 
@@ -47,7 +6,7 @@ This slide outlines the basic guidelines and instructions to help you
 use the SUSE presentation template.
 </h3>
 
-*   Remove the `slide-guidelines.md` section from `index.html` before
+*   Remove the `15-slide-guidelines.md` section from `index.html` before
     projecting, presenting, or sending to anyone.
 
 *   The goal of this template is to maintain a clear, professional and

@@ -80,6 +80,29 @@
         h2, h3, h4, h5, h6 {
             font-weight: normal;
         }
+
+        .qr-embedded {
+            position: absolute;
+            top: -2%;
+            right: -7%;
+            width: 50%;
+            height: 60%;
+
+            .qrcode {
+                position: relative;
+                left: 30%;
+            }
+
+            h2 {
+                font-size: 90%;
+                text-align: right;
+                margin-top: 0%;
+                margin-right: 6%;
+                a {
+                    color: white !important;
+                }
+            }
+        }
     }
 
     h1, h2, h3 {

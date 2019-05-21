@@ -2,16 +2,16 @@
 
 This repo provides a template for presentation slide decks which aims
 to be virtually identical to the SUSE corporate style template
-provided in LibreOffice Impress format.  It is based on
-[a template by Florian Haas](https://github.com/fghaas/presentation-template/)
-which uses [`reveal.js`](https://github.com/hakimel/reveal.js/) (by
-Hakim El-Hattab and contributors) as the underlying presentation
-technology.
+provided in LibreOffice Impress format.
 
-**You can
-[view the template slides online](http://aspiers.github.io/presentation-template/)
-here**; press `Space` or `n` (not the right arrow) to advance 1 slide
-at a time.
+**You can [view the template slides
+online](http://aspiers.github.io/presentation-template/) here**; press
+`Space` or `n` (not the right arrow) to advance 1 slide at a time.
+
+It is based on [a template by Florian
+Haas](https://github.com/fghaas/presentation-template/) which uses
+[`reveal.js`](https://github.com/hakimel/reveal.js/) (by Hakim
+El-Hattab and contributors) as the underlying presentation technology.
 
 Building slides with `reveal.js` has a number of significant
 advantages over LibreOffice Impress:

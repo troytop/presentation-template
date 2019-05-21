@@ -1,0 +1,21 @@
+#!/bin/sh
+
+set -e
+
+top=$(cd `dirname $0`; cd ..; pwd)
+echo "top of repo: $top"
+tmpdir="$top/tmp" # symlink attacks!
+mkdir -p "$tmpdir"
+pidfile="$tmpdir/shellinaboxd.screen.pid"
+
+# This assumes that tmux is installed
+shellinaboxd \
+        --background=$pidfile \
+        --localhost-only \
+        --no-beep \
+        --disable-ssl \
+        --port=4242 \
+        --css=$top/css/shellinabox.css \
+        --service /:$USER:users:HOME:"tmux new -A -s demo -c $top"
+
+echo "shellinaboxd started in background. Shutdown with \"kill `cat $pidfile`\"." >&2
