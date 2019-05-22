@@ -12,6 +12,8 @@
     </div>
 </div>
 
+
+
 <!-- .slide: data-state="normal" id="abstract" data-menu-title="Abstract" -->
 ## Abstract:
 
@@ -25,25 +27,81 @@ good structured platform for cooperating with the IT Operators who manage
 Kubernetes infrastructure.
 
 
-<!-- .slide: data-state="normal" id="agenda" data-menu-title="Agenda" -->
 
-* Why am I here?
-  * to prevent the reinvention of yet another DevOps wheel
-  * to get evangelical about the software I've been working with for eight years
+<!-- .slide: data-state="normal" id="why" data-menu-title="Why am I here?" -->
 
-* Assumptions: What can we agree on to start?
+## Why am I here?
+  * to point out a wheel that doesn't need reinventing 
+  * to be evangelical about the software I've been working with for eight years
+
+
+<!-- .slide: data-state="normal" id="assumptions" data-menu-title="What can we assume?" -->
+
+## Assumptions: What can we agree on?
   * containers are a great way to deliver software
   * containers are replacing virtual machines for a lot of use cases
-  * Kubernetes is the de-facto orchestration system for containers
-  * Kubernetes seems to be displacing IaaS platforms (e.g. Open Stack)
-  * Kubernetes has just as much of a learning curve as its predecessors
+  * Kubernetes is the most widely adopted orchestrator for containers
+  * Kubernetes seems to be displacing IaaS platforms like Open Stack
+  * Kubernetes has as much of a learning curve as its predecessors
 
 
 
+<!-- .slide: data-state="normal" id="whats-happening" data-menu-title="What do we see now?" -->
+
+## What we are seeing now:
+  * proliferation of "last mile" application delivery mechanisms for Kubernetes
+  * "container first" mindset
+  * strong ties to Git in developer tooling
+  * competing platforms, competing APIs
 
 
-<!-- .slide: data-state="normal" id="search-for-grail" data-menu-title="The Search for the Holy Grail" -->
+
+<!-- .slide: data-state="normal" id="our-quest" data-menu-title="Searching for the Grail" -->
+
+## Searching for the Holy Grail
+  * easy to learn and easy to use
+  * enough flexibility to deploy different types of app
+  * not tied to one programming language / web framework 
+  * ... or IDE
+  * ... or source control tool 
+  * ... or vendor!
+  * scalable (up AND down)
+    * apps AND organizations
+  * secure
+  * a platform that lets Ops and Dev work together effectively
+
+"We have been charged by Management with a sacred quest. If you will give us a budget and a team of engineers, you can join us in our quest for the Ultimate Application Delivery Platform"
 
 
-<!-- .slide: data-state="normal" id="already-got-one" data-menu-title="Already Got One!" -->
+
+<!-- .slide: data-state="normal" id="our-quest" data-menu-title="Searching for the Grail" -->
+
+## Platform-as-a-Service Primer 
+  * We used to deliver web apps on shared hosts with FTP
+  * AWS gave us cheap virtual machines in the cloud
+  * Engine Yard was one of the first major multi-tennant PaaS for Rails
+  * Google App Engine followed with a similar model but for Java, Node, and Python
+  * Heroku gave us extensibility with language buildpacks
+  * VMWare gave us an open source PaaS framework: Cloud Foundry
+  * dotCloud gave us docker (then became Docker)
+
+
+
+<!-- .slide: data-state="normal" id="what-then" data-menu-title="Losing our way" -->
+
+## Then what?
+  * ... and then we all forgot about PaaS BECAUSE CONTAINERS!!!
+  * and now we are adding PaaS functionality back to CaaS
+
+
+
+<!-- .slide: data-state="normal" id="what-now" data-menu-title="Finding our way" -->
+
+## What we have got already
+
+    S: Well, I'll ask 'im, but I don't think 'e'll be very keen-- 'e's already got
+       one, you see?
+    A: Are you *sure* he's got one?
+    S: Oh yes, it's ver' naahs.
+
 
