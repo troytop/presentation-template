@@ -1,19 +1,16 @@
 <!-- .slide: data-state="cover" id="cover-page" data-timing="20" data-menu-title="Cover slide" -->
+
 <div class="title">
-    <h1>SUSE<sub>&reg;</sub> Presentation</h1>
-    <h2>Guidelines and Template</h2>
+    <h1>SUSE Stratos Console</h1>
+    <h2>a guided tour</h2>
 </div>
 
+<!--
 <div class="row presenters">
     <div class="presenter presenter-1">
-        <h3 class="name">First Presenter's Name</h3>
-        <h3 class="job-title">Job Title</h3>
-        <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
-    </div>
-    <div class="presenter presenter-2">
-        <h3 class="name">Second Presenter's Name</h3>
-        <h3 class="job-title">Job Title</h3>
-        <h3 class="email"><a href="mailto:firstname.lastname@suse.com">firstname.lastname@suse.com</a></h3>
+        <h3 class="name">Troy Topnik</h3>
+        <h3 class="job-title">Product Manager, SUSE Cloud Application Platform</h3>
+        <h3 class="email"><a href="mailto:troy.topnik@suse.com">troy.topnik@suse.com</a></h3>
     </div>
 </div>
 
@@ -24,24 +21,14 @@
     <h2><a href="https://goo.gl/FIXME" target="_blank"
            id="talk-embedded">https://goo.gl/FIXME</a></h2>
 </div>
+-->
 
 
-<!-- .slide: data-state="normal" id="agenda" data-menu-title="Agenda" -->
-## Contents / agenda
 
-<h3>
-Welcome to the [`reveal.js`](https://github.com/hakimel/reveal.js/)
-version of the guidelines and template for SUSE presentations.
-</h3>
+<!-- .slide: data-state="normal" id="intro" data-menu-title="Introduction" -->
 
-It contains the following slides (you can also press `m` at any
-time to reveal a navigation menu):
+## Demonstrating Stratos 
 
-*   Guidelines
-    *   Template Instructions
-    *   Color Palette
-    *   Graphics and Typeface
-    *   Editorial Guidelines
-    *   Slide Trademarking Guidelines
+* Deploy this to SUSE Cloud Application Platform
+* Follow along in Stratos if you have it handy
 
-*   Presentation template slides
