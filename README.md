@@ -5,7 +5,7 @@ to be virtually identical to the SUSE corporate style template
 provided in LibreOffice Impress format.
 
 **You can [view the template slides
-online](http://aspiers.github.io/presentation-template/) here**; press
+online](https://opensource.suse.com/presentation-template/) here**; press
 `Space` or `n` (not the right arrow) to advance 1 slide at a time.
 
 It is based on [a template by Florian
@@ -117,6 +117,6 @@ even better, send us
 
 Also, if you notice any areas for improvement, please submit issues
 and pull requests via
-[this repository](https://github.com/aspiers/presentation-template/).
+[this repository](https://github.com/SUSE/presentation-template/).
 
 Thanks!

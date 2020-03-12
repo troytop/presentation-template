@@ -6,12 +6,12 @@ Firstly, `git-clone` this repository to a directory name which
 reflects your new presentation, e.g.
 
     # clone via ssh
-    git clone git@github.com:aspiers/presentation-template.git my-new-presentation
+    git clone git@github.com:SUSE/presentation-template.git my-new-presentation
 
 or
 
     # clone via https
-    git clone https://github.com/aspiers/presentation-template.git my-new-presentation
+    git clone https://github.com/SUSE/presentation-template.git my-new-presentation
 
 It is recommended to treat each presentation as a separate repository
 rather than separate branches within a single repository, even though
